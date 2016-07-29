@@ -1,4 +1,5 @@
-Debug
+Debug/
+LeetCode/Debug/
 *.sdf
-LeetCode/Debug
+*.opensdf
 *.suo
