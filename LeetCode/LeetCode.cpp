@@ -7,6 +7,7 @@
 #include "GuessNumber_I.h"
 #include "Sum_Two_Integers.h"
 #include "Largest_Divisible_Subset.h"
+#include "MaxSumRectangle.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -46,7 +47,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//nums.push_back(11);
 	//nums.push_back(16);*/
 
-	for (int i = 1; i < 1001; i++){
+	/*for (int i = 1; i < 1001; i++){
 		nums.push_back(i);
 	}
 	Largest_Divisible_Subset largest_Divisible_Subset;
@@ -56,7 +57,22 @@ int _tmain(int argc, _TCHAR* argv[])
 	for (int i = 0; i < nums.size(); i++){
 		cout << nums[i] << " ";
 	}
-	cout << ")";
+	cout << ")";*/
+
+	vector<vector<int>> matrix;
+
+	int a1[3] = { 0, 0, 1 }, a2[3] = { 0, -2, 5 };
+	size_t count = sizeof(a1) / sizeof(int);
+	vector<int> v1(a1, a1 + count);
+	vector<int> v2(a2, a2 + count);
+
+	matrix.push_back(v1);
+	matrix.push_back(v2);
+
+	int k = 3;
+
+	MaxSumRectangle maxSumRectangle;
+	cout<<maxSumRectangle.maxSumSubmatrix(matrix, k);
 
 	return 0;
 }
