@@ -45,6 +45,9 @@
     <ClCompile Include="MaxSumRectangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="WiggleSubsequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -72,6 +75,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MaxSumRectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WiggleSubsequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

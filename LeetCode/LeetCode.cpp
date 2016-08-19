@@ -8,31 +8,28 @@
 #include "Sum_Two_Integers.h"
 #include "Largest_Divisible_Subset.h"
 #include "MaxSumRectangle.h"
+#include "WiggleSubsequence.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//Super_Pow super_pow;
-
 	//int a = 12;
 	//vector<int> b;
 	//b.push_back(2);
 	//b.push_back(2);
-
 	//int ret = super_pow.superPow(a, b);
-
 	//cout << ret;
 
-	//GuessNumber_I guessNumber(10, 6);
 
+	//GuessNumber_I guessNumber(10, 6);
 	//cout << guessNumber.guessNumber(10);
 
 	//Sum_Two_Integers sumTwoInt;
 	//int ret = sumTwoInt.sum(-70, 9);
 	//cout << ret;
 
-	vector<int> nums;
-
-	/*nums.push_back(1);
+	/*vector<int> nums;
+	nums.push_back(1);
 	nums.push_back(2);
 	nums.push_back(3);
 	nums.push_back(4);
@@ -59,7 +56,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	cout << ")";*/
 
-	vector<vector<int>> matrix;
+	/*vector<vector<int>> matrix;
 
 	int a1[3] = { 0, 0, 1 }, a2[3] = { 0, -2, 5 };
 	size_t count = sizeof(a1) / sizeof(int);
@@ -72,7 +69,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	int k = 3;
 
 	MaxSumRectangle maxSumRectangle;
-	cout<<maxSumRectangle.maxSumSubmatrix(matrix, k);
+	cout<<maxSumRectangle.maxSumSubmatrix(matrix, k);*/
+
+
+	int n_array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	size_t count = sizeof(n_array)/sizeof(int);
+	vector<int> nums(n_array, n_array + count);
+	WiggleSubsequence wiggleSubsequence;
+	cout<<wiggleSubsequence.wiggleMaxLength(nums)<<endl;
 
 	return 0;
 }
