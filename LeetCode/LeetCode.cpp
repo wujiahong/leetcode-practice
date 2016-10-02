@@ -9,6 +9,7 @@
 #include "Largest_Divisible_Subset.h"
 #include "MaxSumRectangle.h"
 #include "WiggleSubsequence.h"
+#include "LongestSubstring.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -72,11 +73,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout<<maxSumRectangle.maxSumSubmatrix(matrix, k);*/
 
 
-	int n_array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-	size_t count = sizeof(n_array)/sizeof(int);
-	vector<int> nums(n_array, n_array + count);
-	WiggleSubsequence wiggleSubsequence;
-	cout<<wiggleSubsequence.wiggleMaxLength(nums)<<endl;
+	//int n_array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	//size_t count = sizeof(n_array)/sizeof(int);
+	//vector<int> nums(n_array, n_array + count);
+	//WiggleSubsequence wiggleSubsequence;
+	//cout<<wiggleSubsequence.wiggleMaxLength(nums)<<endl;
+
+
+	string s = "au";
+
+	LongestSubstring longestSubString;
+
+	cout << longestSubString.lengthOfLongestSubstring(s);
+
 
 	return 0;
 }

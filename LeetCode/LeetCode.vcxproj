@@ -84,10 +84,12 @@
     <ClCompile Include="GuessNumber_II.cpp" />
     <ClCompile Include="Largest_Divisible_Subset.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LongestSubstring.cpp" />
     <ClCompile Include="MaxSumRectangle.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Sum_Two_Integers.cpp" />
     <ClCompile Include="Super_Pow.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="WiggleSubsequence.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -95,11 +97,13 @@
     <ClInclude Include="GuessNumber_I.h" />
     <ClInclude Include="GuessNumber_II.h" />
     <ClInclude Include="Largest_Divisible_Subset.h" />
+    <ClInclude Include="LongestSubstring.h" />
     <ClInclude Include="MaxSumRectangle.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Sum_Two_Integers.h" />
     <ClInclude Include="Super_Pow.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TwoSum.h" />
     <ClInclude Include="WiggleSubsequence.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
